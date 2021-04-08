@@ -24,6 +24,7 @@
         }
     
     .text p{
+        font-size:18px;
         padding:10px 5px;
     }    
     #lezioni  img {
@@ -115,4 +116,9 @@
             background-color: lightgoldenrodyellow;
           }
 
+    }
+    @media screen and (min-width: 991px) {
+        .container.grey{
+            max-width:100%;
+        }
     }
